@@ -8,28 +8,28 @@ print('  _| |_| |  | | |____    | |_) | |_| |')
 print(' |_____|_|  |_|\_____|   | .__/ \__, |')
 print('                         | |     __/ |')
 print('                         |_|    |___/ ')
-print('Calcule seu Indice de Massa Corporal ')
-print('Criado Por Junior Schmidt v:1.0 ')
-print('Insira apenas Numeros !!')
+print('calculate Your Body Mass Index ')
+print('Created By Junior Schmidt brazil v: 1.0 ')
+print('Enter only Numbers !!')
 
-peso= float(input('--Informe Seu Peso:'))
-a= float(input('--Informe Sua Altura:'))
+peso= float(input('- Report Your Weight >>'))
+a= float(input('- Report Your Height >>'))
 ar=float (a ** 2)
 imc=float (peso / ar)
 
-print('O seu IMC é', imc, '!')
+print('Your BMI is', imc, '!')
 if imc < 18.5:
-	print('Você está Abaixo do Peso')
+	print('You are underweight')
 elif imc > 18.6 and imc < 24.9:
-	print('Você está no peso Ideal Parabéns')
+	print('You re at Ideal Weight Congratulations')
 elif imc > 25.0 and imc < 29.9:
-	print('Levemente Acima do Peso ')
+	print('Slightly Overweight')
 elif imc > 30.0 and imc < 34.9:
-	print('Obesidade Grau I(Preucupante)')
+	print('Obesity Grade I (Worrying)')
 elif imc > 35.0 and imc < 39.9:
-	print('Obesidade Grau II(Severa)')
+	print('Obesity Grade II (Severe)')
 elif imc > 40:
-	print('Obesidade Grau III(mórbida)')
+	print('Obesity Grade III (morbid)')
 
 
 
