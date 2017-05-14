@@ -12,8 +12,8 @@ print('calculate Your Body Mass Index ')
 print('Created By Junior Schmidt brazil v: 1.0 ')
 print('Enter only Numbers !!')
 
-peso= float(input('- Report Your Weight >>'))
-a= float(input('- Report Your Height >>'))
+peso= float(input('- Report Your Weight in kg >>'))
+a= float(input('- Report Your Height in cm >>'))
 ar=float (a ** 2)
 imc=float (peso / ar)
 
